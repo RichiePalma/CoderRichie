@@ -27,13 +27,25 @@ def Searcher(namefile, word):
 
 print(Searcher(namefile,word))'''
 #------------------------------------------------------------------------------
-'''#8. Square root PENDING
-S = int(input("What is the number?: "))
-X0 = 600.000
+'''#8. Square root
+number =  int(input("Squareroot of what number?: "))
 
-def SquareRoot(S,X0):
-    x1 = (X0 + (S/X0))*0.5
-    NextX =  '''
+def BabylonianAlgorithm(number):
+    if(number == 0):
+        return 0
+
+    g = number/2.0
+    g2 = g + 1
+    while(g != g2):
+        n = number/ g
+        g2 = g;
+        g = (g + n)/2
+
+    return g;
+
+
+for i in range(number,number+1): #Only print the number's squareroot
+    print ('The Square root of ', i ,' =', BabylonianAlgorithm(number))'''
 #------------------------------------------------------------------------------
 '''#7.Suma de cuadrados en una lista
 Cardinality = int(input("How many elements are in the list? "))
