@@ -1,6 +1,18 @@
 #Link to pdf: http://kenscourses.com/tc101winter2016/wp-content/uploads/2016/04/TC101_FinalExamQuestions.pdf
 #Not finished yet
 #I left them as comments so it doesn't affect the current excersice that is trying to run.
+
+'''#10. Greatest Common Denominator
+FirstNumber = int(input("What is the first number?: "))
+SecondNumber = int(input("What is the second number?: "))
+
+def GDC(FirstNumber,SecondNumber):
+    if SecondNumber == 0:
+        return FirstNumber
+    else:
+        return GDC(SecondNumber, FirstNumber%SecondNumber)
+print(GDC(FirstNumber,SecondNumber))'''
+#------------------------------------------------------------------------------
 '''#9. Count words
 namefile = input("Name of the file: ")
 word = input("What word are you counting?: ").lower()
