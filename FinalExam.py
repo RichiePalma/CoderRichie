@@ -38,10 +38,10 @@ def BabylonianAlgorithm(number):
     g2 = g + 1
     while(g != g2):
         n = number/ g
-        g2 = g;
+        g2 = g
         g = (g + n)/2
 
-    return g;
+    return g
 
 
 for i in range(number,number+1): #Only print the number's squareroot
