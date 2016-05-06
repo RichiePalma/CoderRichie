@@ -1,5 +1,5 @@
 #Link to pdf: http://kenscourses.com/tc101winter2016/wp-content/uploads/2016/04/TC101_FinalExamQuestions.pdf
-#Not finished yet
+#Finally finished
 #I left them as comments so it doesn't affect the current excersice that is trying to run.
 
 '''#10. Greatest Common Denominator
