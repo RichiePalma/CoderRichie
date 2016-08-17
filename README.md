@@ -12,5 +12,5 @@ We also had to keep blogging what we do, and we also have to explain it. [Click 
 
 ## What is the quality of the files?
 
-To beggin with, the author of this repository is starting programming from 0%, so for a professional programmer this may actually look unprofessional and low quality. Yet, each code accomplishes it's purpose. 
+To beggin with, the author of this repository is starting programming from 0%, so for a professional programmer this may actually look unprofessional and low quality. Yet, each code accomplishes its purpose. 
 
